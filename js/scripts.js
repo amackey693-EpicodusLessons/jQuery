@@ -1,4 +1,4 @@
-$(document).read(function() {}
+$(document).ready(function() {
 jQuery("h1").click(function() {
  alert("this is a header."); 
 });
@@ -10,4 +10,4 @@ jQuery("p").click(function() {
 jQuery("img").click(function(){
   alert("This is an image.");
 });
-
+});
